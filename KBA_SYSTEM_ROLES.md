@@ -935,8 +935,10 @@ Sample output:
 
 ### 7.4 Example of Setting up a 2 Node HANA Scale-Up cluster
 
-Starting with June 2022 a new set of system roles is available. This allows to setup a 2 node cluster with a single playbook. All necessary parameters are also part of this playbook. Running in an rhev environment you are able to setup an complete cluster using this playbook. The only requirement is the availability of the 
+Starting with June 2022 a new set of system roles is available. This allows to setup a 2 node cluster with a single playbook. All necessary parameters are also part of this playbook. Running in an rhev environment you are able to setup an complete cluster using this playbook. The only requirement is the availability of the *Ansible* control node, the SAP HANA Software and the subscriptions.
 
+Steps to be followed please check:
+[Example 2 Node Hana Cluster Setup](https://github.com/mmoster/community.sap_install/tree/dev/examples/2_node_sap_hana_cluster)
 
 ## 8. Related Information {#Related-Information}
 - [Linux System Roles upstream project](https://linux-system-roles.github.io/)
